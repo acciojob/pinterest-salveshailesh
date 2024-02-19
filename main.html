@@ -1,16 +1,56 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest-Hero Section</title>
+    <style>
+        body{
+            width: 99%;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            border: 6px solid greenyellow;
+        }
+        .hero{
+            margin: 20px;
+            display: flex;
+            width: auto;
+            height: 90vh;
+            border: 3px solid purple;
+            
+        }
+        .text-1{
+            width: 290px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            position: relative;
+            top: 50%;
+        }
+        #img{
+            object-fit: cover;
+            width: 1000px;
+            height: 400px;
+            
+        }
+        p{
+            display: flex;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="hero">
+        <img id="img" src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        <div class="text-1">
+            <h1>Welcom to my Pinterest clone</h1>
+            <p>
+                Discover new insperitions and save your favourite idea
+            </p>
+        </div>
+    </div>
 </body>
-
 </html>
